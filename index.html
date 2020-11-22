@@ -19,8 +19,8 @@
         <div class="row">
         <!--IMAGEN INICIAL-->
             <div class="col-12">
-                <img class="d-none d-sm-block" src="img/ilustracion.png">
-                <img class="d-sm-none" src="img/ilustracioncel.png">
+                <img class="d-none d-sm-block" src="img/inicio.png">
+                <img class="d-sm-none" src="img/iniciocel.png">
             </div>
 
             <h1> Pumas en la jungla de cemento </h1>
@@ -82,38 +82,37 @@
         
             <!--MAPA URBANO-->
             <div class="col-12">
-                <figure class="alert-primary shadow-sm">
-                        <g id="primerGrupoGrande" class="esconder">
-                       
-                            <img class="d-none d-md-block" style="overflow: hidden; enable-background: new;" width="1000" height="400" xlink:href="img/mapaurbanocompu.png" transform="matrix(0.5 0 0 0.5 0 0)">
-                            <p>COMPU Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>                        
-                        </g>
+              
+            	<!--COMPU-->
+              	<figure class="alert-primary shadow-sm">
+              		
+              		<svg>
+              		<!--TEXTO EN SVG-->
+              		</svg>
+              		
+              		<g id="primerGrupoGrande" class="esconder">
+              			<image style="overflow: hidden; enable-background: new;" width="1000" height="400" xlink:href="img/mapaurbano.png" transform="matrix(0.5 0 0 0.5 0 0)"></image>
+              		</g>
 
-                        <g id="segundoGrupoGrande" class="esconder">
-                            <img class="d-none d-md-block" style="overflow: hidden; enable-background: new;" width="1000" height="400" xlink:href="img/mapaurbanocompu2.png" transform="matrix(0.5 0 0 0.5 0 0)">
-                        </g>                  
-                       
-
-                            <img class="d-md-none" style="overflow: hidden; enable-background: new;" width="1000" height="1000" xlink:href="img/mapaurbanocel.png" transform="matrix(0.5 0 0 0.5 0 0)"></image>
-                            <text x="250" y="250" text-anchor="middle" font-size="30">CEL Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</text>
-                        <g id="primerGrupoChico" class="esconder">
-                               <img class="d-none d-md-block" style="overflow: hidden; enable-background: new;" width="1000" height="400" xlink:href="img/mapaurbanocel.png" transform="matrix(0.5 0 0 0.5 0 0)">
-                        </g>
-
-                            <g id="segundoGrupoChico" class="esconder">
-                              <img class="d-none d-md-block" style="overflow: hidden; enable-background: new;" width="1000" height="400" xlink:href="img/mapaurbanocel2.png" transform="matrix(0.5 0 0 0.5 0 0)">
-                            </g>
-                     
-                </figure>
+              		<g id="segundoGrupoGrande" class="esconder">
+              			<image style="overflow: hidden; enable-background: new;" width="1000" height="400" xlink:href="img/mapaurbano2.png" transform="matrix(0.5 0 0 0.5 0 0)"></image>
+              		</g>
+              	</figure>
             </div>
 
+             	<!--CEL-->  <!--Pendiente hasta arreglar la version del compu-->
 
-            <div class="col-12">
-                <img class="d-none d-sm-block" src="img/referencia.png">
-                <img class="d-sm-none" src="img/referencia-xs.png">
+        <!--REGULACION DE URBANIZACION-->
+        	<div class="col-12">
+        	<h3>Regulación de urbanización</h3>
+        	<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p> 
+                <img class="d-none d-sm-block" src="img/ilustracionpuma.png">
+                <img class="d-sm-none" src="img/rilustracionpumacel.png">
             </div>
         </div>
     </main>
+
+
     <!--DESENLACE-->
     <footer class="container">
         <div class="row">
@@ -123,10 +122,9 @@
             </div>
         </div>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <!--Javascript-->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script>
             $(window).scroll(function () {
                 var scroll = $(window).scrollTop();
@@ -144,5 +142,6 @@
                 }
             });
         </script>
+
   </body>
 </html>
