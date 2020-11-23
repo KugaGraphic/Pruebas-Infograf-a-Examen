@@ -3,6 +3,11 @@ div.col-12 img{
 	height:auto;
 }
 
+.icono img{
+	width:10%;
+	height:auto;
+}
+
 body {
 	font-family:"Roboto", sans-serif;
 	font-weight: 300;
