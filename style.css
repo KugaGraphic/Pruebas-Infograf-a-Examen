@@ -1,12 +1,4 @@
-div.col-12 img{
-	width:100%;
-	height:auto;
-}
 
-.icono img{
-	width:10%;
-	height:auto;
-}
 
 body {
 	font-family:"Roboto", sans-serif;
@@ -20,6 +12,12 @@ h1 {
 	font-size:2.5rem;
 	text-align: center;
 	color:
+}
+
+ @media (min-width: 992px) {
+    h1{
+    font-size:3.3rem;
+      }
 }
 
 h2{
@@ -49,9 +47,22 @@ p{
     font-weight: 500;
     font-size:1rem;
     color: #888;
-  
 }
 
  .esconder {
    	display: none;
  }
+
+ div.col-12 img{
+	width:100%;
+	height:auto;
+}
+
+.icono img{
+	width:10%;
+	height:auto;
+}
+.imagen img{
+	width: 30%;
+	height:auto;
+}
