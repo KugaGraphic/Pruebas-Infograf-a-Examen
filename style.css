@@ -11,14 +11,10 @@ h1 {
 	font-weight: 600;
 	font-size:2.5rem;
 	text-align: center;
-	color:#f9a51e;
+	color:
 }
 
- @media (min-width: 992px) {
-    h1{
-    font-size:3.3rem;
-      }
-}
+
 
 h2{
 	font-style: italic;
@@ -62,7 +58,7 @@ p{
 	width:10%;
 	height:auto;
 }
-.imagen img{
+.ilustracion img{
 	width: 30%;
 	height:auto;
 }
