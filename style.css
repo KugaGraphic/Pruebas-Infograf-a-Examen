@@ -1,6 +1,7 @@
 
 
-body {
+
+ body {
 	font-family:"Roboto", sans-serif;
 	font-weight: 300;
 
@@ -9,7 +10,7 @@ body {
 h1 {
 	font-family:"Bitter", serif;
 	font-weight: 600;
-	font-size:2.5rem;
+	font-size:5vw;
 	text-align: center;
 	color:black;
 }
@@ -51,60 +52,134 @@ p{
     font-weight: 500;
     font-size:1rem;
     color: #888;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
- .esconder {
+.esconder {
    	display: none;
  }
+
 
  div.col-12 img{
 	width:100%;
 	height:auto;
 }
 
+
+.parallax{
+	background-image: url("img/fondo.png");
+	background-repeat: no-repeat;
+ 	width:100%;
+ 	height: auto;
+ 	background-size: 100%;
+	padding-top: 0vh; /* 1:1 Aspect Ratio */
+	  /* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	
+}
+.parallax1{
+	background-image: url("img/pallarax1.png");
+	width: 100%;
+	height: auto;
+	padding-top: 100%; /* 1:1 Aspect Ratio */
+	background-attachment: fixed;
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: 50%;
+}
+
+.parallax2{
+	background-image: url("img/pallarax2.png");
+	width: 100%;
+	height: auto;
+	padding-top: 100%; /* 1:1 Aspect Ratio */
+	background-attachment: fixed;
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: 50%;
+}
+
+.parallax3{
+	background-image: url("img/pallarax3.png");
+	width: 100%;
+	padding-top: 100%; /* 1:1 Aspect Ratio */
+	background-attachment: fixed;
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: 50%;
+}
+
+#margen{
+	margin-right:10vw;
+    margin-left: 10vw;
+    margin-top: 30px;
+}
+#margentitulo{
+	margin-right:30px;
+    margin-left: 30px;
+    margin-top: 10vh;
+}
+
+
+.portada img{
+	width:100%;
+	height: auto;
+}
 .icono img{
-	width:10%;
+	width:20%;
 	height:auto;
 }
 .ilustracion img{
 	width: 30%;
 	height:auto;
 }
+.imgcaracteristicas img{
+	display:block;
+  margin:auto;
+	width: 50%;
+	height:auto;
+}
 
-/* AQUÍ COMIENZA LA IMAGEN CON TEXTO SOBRE PUESTO */
+.barraparallax {
+     width:1920px;
+     height:100px;
+     background:white;
+}
 
-#content_div_inicio {
-	top:0;
-	left:0;
-	height: auto;
-  width: 100%;
-	background:none;
+.borrar {
+	width:100%;
+    height:auto;
+
+     background-image: url("img/inicio2.png");
+     background-size: 100%;
+     background-position: center;
+     background-attachment: fixed;
+     background-repeat: none;
+}
+
+@media only screen and (max-device-width: 500px) {
+	.barraparallax {
+    display: none;
+  }
+	.parallax1, .parallax2, .parallax3 {
+    background-attachment: scroll;
+    background-position: center;
+    background-size: 100%;
+
+  }
+	#margentitulo{
+    margin-right:20px;
+    margin-left: 0px;
+    margin-top: 0;
+	}
 
 }
 
-#padre {
-  position: relative;    /* para poder posicionar el texto de forma absoluta */
-  display: inline-block; /* para que solo ocupe el ancho de la imagen */
-}
 
-.titulo {
-  position: absolute;    /* posición absolute con respecto al padre */
-	bottom: 50%;
-  left: 24%;
-	font-family:"Bitter", serif;
-	font-weight: 600;
-	font-size:2.5rem;
-	text-align: center;
-	color:white;
-}
 
-.subtitulo {
-  position: absolute;    /* posición absolute con respecto al padre */
-	bottom: 30%;
-  left: 27%;
-	font-family: "Roboto", serif;
-	font-weight: 500;
-	font-size:1.3rem;
-	text-align: center;
-	color:white;
-}
+
+
+
+
+
