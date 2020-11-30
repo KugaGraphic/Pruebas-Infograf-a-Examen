@@ -140,7 +140,12 @@ p{
 	width: 50%;
 	height:auto;
 }
-
+.imgcaracteristicas_web img{
+	display:block;
+  	margin:auto;
+	width: 50%;
+	height:auto;
+}
 .barraparallax {
      width:1920px;
      height:100px;
