@@ -154,17 +154,36 @@
 <main class="container">
 <div class="row justify-content-center">
 
-    <!--Apropiamiento del habitat animal y delimitación urbana-->
-	<div class="col-sm-6 col-lg-6">
-		</br>
-        <h3> Apropiamiento del habitat animal y delimitación urbana</h3>
+   
+	
+
+<!--CRECIMIENTO URBANO--> 
+    <div class="row justify-content-center">
+        <div class="col-sm-6 col-lg-6">
+            </br>
+            <h3> Invasión del hábitat animal por el crecimiento urbano</h3> 
+            <p> En la actualidad hay cifras de crecimiento de aproximadamente un 25% de la ciudad de Santiago, provocando <b>reemplazos de suelos y de hábitats de fauna nativa</b>; esto se debe 2 principales razones  al cambio de uso o cobertura de suelo; y a las dinámicas del aumento de la población.</p>
+        </div>
     </div>
 
-    <!--MAPA URBANO-->
-     <div class="col-12">
-
-<!--COMPU-->
-
+<div class="row row-no-gutters">
+    <!--INFO-->
+    <div class="col-md-6 col-xs-1">
+        <div class="row justify-content-center">
+        <div class="col-sm-6 col-md-9 col-lg-9">
+            </br>
+            <p> <b>1.-Aumento demográfico.</b> la población de la Región Metropolitana pasó desde el 2002 al 2017 de 6.061.185 de habitantes a 7.112.808 habitantes </p>
+ 
+            <p> <b> Consecuencias:</b> provoca efectos en el mayor uso de espacios naturales cercanos (que se evidencia en el aumento de ascensos a los cerros vecinos) y el aumento de mascotas domésticas (perros y gatos) </p>
+ 
+            <p> <b>2.-Reemplazos de suelos.</b> A pesar de que se han estipulado y planificado los usos del territorio  con el PRMS (Plan Regulador Metropolitano) ,los intereses de los grupos de poder modifican estos términos a su favor.</p>
+        </div>
+        </div>
+    </div>
+    <!--MAPA-->
+    <div class="col-sm-6 col-lg-6">
+        <!--COMPU-->
+        <div class="col-12">
               <g id="primerGrupoGrande" class="esconder">
               		<img src="img/mapaurbano.png">
               	</g>
@@ -172,14 +191,9 @@
               	<g id="segundoGrupoGrande" class="esconder">
               		<img src="img/mapaurbano2.png">
               	</g>
-
-    </div>
-
-
-<!--CEL-->  <!--Pendiente hasta arreglar la version del compu-->
-
-            <div class="col-12">
-
+        </div>
+        <!--CEL-->  <!--Pendiente hasta arreglar la version del compu-->       
+        <div class="col-12">
                 <g id="primerGrupopequeño" class="esconder">
                     <img src="img/mapaurbanocel.png">
                 </g>
@@ -187,40 +201,27 @@
                 <g id="segundoGrupopequeño" class="esconder">
                     <img src="img/mapaurbanocel2.png">
                 </g>
-
-            </div>
-</div>
-	<!--ILUSTRACION PUMA Y CIUDAD-->
-
-        </br>
-    <div class="row justify-content-center">
-		<div class="ilustracion">
-        	<img src="img/pumayciudad.png">
-
         </div>
-    </div>
+   </div>
+</div>
 
     <!--REGULACION DE URBANIZACION-->
     <div class="row justify-content-center">
 	<div class="col-sm-6 col-lg-6">
-        <h3>Regulación de urbanización</h3>
+         </br>
+         </br>
+          <h3>Regulación de urbanización</h3>
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
     </div>
     </div>
 
-    <!--ILUSTRACION SILUETAS HUELLAS
 
-		<div class="row justify-content-center">
-        	<img class= "col-12" src="img/huellas.png">
-
-    	</div>
--->
 
 <!--ILUSTRACIÓN CONSTITUCION+PUMAS-->
 <div class="row justify-content-center">
     <img class=".ilustración" src="img/pumasconstitucion.png">
 </div>
-</div>
+
     <!--DERECHOS DE FAUNA NATIVA EN CONSTITUCIÓN-->
     <div class="row justify-content-center">
 	<div class="col-sm-6 col-lg-6">
@@ -393,7 +394,7 @@
             $(window).scroll(function () {
                 var scroll = $(window).scrollTop();
                 var total = $(window).height();
-                if (scroll >= total/0.3) {
+                if (scroll >= 3200) {
                     $("#primerGrupoChico").addClass("esconder");
                     $("#primerGrupoGrande").addClass("esconder");
                     $("#segundoGrupoChico").removeClass("esconder");
