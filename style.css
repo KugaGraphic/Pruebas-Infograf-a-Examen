@@ -154,19 +154,19 @@ p{
 
 
 .barra_grande {
-     width:1920px;
+     width:100%;
      height:200px;
      background:white;
 }
 
 .barra_mediana {
-     width:1920px;
+     width:100%;
      height:100px;
      background:white;
 }
 
 .barra_pequeña {
-     width:1920px;
+     width:100%;
      height:50px;
      background:white;
 }
@@ -183,15 +183,16 @@ p{
 }
 
 @media only screen and (max-device-width: 500px) {
-	.barraparallax {
-    display: none;
-  }
 	.parallax1, .parallax2, .parallax3 {
-    background-attachment: scroll;
     background-position: center;
     background-size: 100%;
 
   }
+	
+  .barraparallax {
+    display: none;
+  }
+
 	#margentitulo{
     margin-right:20px;
     margin-left: 0px;
