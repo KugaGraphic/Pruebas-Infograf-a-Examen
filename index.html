@@ -21,7 +21,10 @@
   <!--con col-12 la imagen se ajusta sola-->
    <!--xs celulas; sm =tablet; md= compu-->
     <!--con col-12 la imagen se ajusta sola-->
-    <!--<img class="d-sm-none"src="img/iniciocel2.png">-->
+    <!--<	<div class="col-12">
+			<img class="d-none d-sm-block" src="img/caractisticas_web.png">
+     		<img class="d-sm-none" src="img/caracteristicas_cel.png">
+				</div>>-->
 
 
 <body>
@@ -43,7 +46,8 @@
 <div class="barra_pequeña"> </div>
 
   <!--TEXTO-->
-        <div class="col-sm-6 col-lg-12">
+        <div class="row justify-content-center">
+         <div class="col-sm-6 col-lg-12">
                 <h5>Infografía realizada por </br> Isabella Cabrera</br> Déssirée Cifuentes </br>Karina Melani</h5>
                 
         </div>
@@ -52,19 +56,24 @@
         <div class="barra_pequeña"></div>
 
 
-        <div class="row justify-content-center">
+       
             <div class="col-sm-6 col-lg-6">
               <p> En lo que lleva del 2020 <b>se han triplicado la cantidad de avistamientos y rescates de pumas en Santiago respecto al año anterior</b>(ADN, 2020).Si bien las ciudades estaban más vacías por la pandemia y se generaron más condiciones para que el puma no temiera aventurarse dentro de la ciudad, este es un fenómeno que observamos hace más años atrás, en distintas comunas del Gran Santiago.</p>
             </div>
         </div>
 
 <!--MAPA-->
-    <div class="imgmapa1">
-        <img class="d-none d-sm-block" src="img/mapasantiago.png">
-        </div>
-    <div class="col-12">
-        <img class="d-sm-none"src="img/mapasantiagocel.png">
-      </div>
+<div class="row justify-content-center">
+ 
+        
+        <iframe id="mapa1" class="d-none d-sm-block" src="https://www.google.com/maps/d/embed?mid=1esQ1sm9jwlz95_tFVYAYjiB3rAgkxi7v"  frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+		
+		<iframe id="mapa2" class="d-sm-none" src="https://www.google.com/maps/d/embed?mid=1esQ1sm9jwlz95_tFVYAYjiB3rAgkxi7v" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+
+     
+  </div>
 
     <div class="barra_mediana"></div>
 
@@ -77,16 +86,59 @@
     </div>
     </div>
 
-<!--IMAGENES CARACTERISTICAS-->
+<!--INFOGRAFIA PUMA CC-->
+	<!--COMPU-->
+	<div class="d-none d-sm-block">
+		<div class="row">
+			<!--columna1-->
+			<div class="col-2">
+				<p class="info">Felino esbelto y agil de gran tamaño que habita en toda America</p>
+				<img class="col-12" src="img/mapa_america">
+			</div>
+			<!--columna2-->
+			<div class="col">
+				<img class="col-12" src="img/caractisticas_web.png">
+			</div>
+
+
+			<!--columna3-->
+			<div class="col-2">
+				<p class="info"> Puede medir hasta 2.8 metros de largo, 80 cms de altura y pesar 80kgs</p>
+			</div>
+			<!--columna4-->
+			<div class="col-2">
+				<p class="info"> Su color es variable: entre rubio, amarillos-griseshasta pardo-rojizo.</p>
+				<img class="col-12" src="img/cabeza_colores.png">
+				<p class="info"> Solo las hembras viven con cachorros, de lo contrario son animales solitarios.</p>
+			</div>
+		</div>
+	</div>
+	<!--Cel-->
+	<div class="d-sm-none" >
+		<div class="row justify-content-center">
+			<!--columna1-->
+			<div class="col-4">
+				<p class="info">Felino esbelto y agil de gran tamaño que habita en toda America</p>
+				<img class="col-12" src="img/mapa_america">
+				<p class="info"> Puede medir hasta 2.8 metros de largo, 80 cms de altura y pesar 80kgs</p>
+				<p class="info"> Su color es variable: entre rubio, amarillos-griseshasta pardo-rojizo.</p>
+				<img class="col-12" src="img/cabeza_colores.png">
+				<p class="info"> Solo las hembras viven con cachorros, de lo contrario son animales solitarios.</p>
+			</div>
+			<!--columna2-->
+			
+			<div class="col-8">
+				<img class="col-12" src="img/caracteristicas_cel.png">
+			</div>
+	</div>
+
 
     <!-- <div class="imgcaracteristicas_web">
       <img class="d-none d-sm-block" src="img/caractisticas_web.png">
         </div>-->
 
-    <div class="col-12">
-        <img class="d-none d-sm-block" src="img/caractisticas_web.png">
-      <img class="d-sm-none" src="img/caracteristicas_cel.png">
-     </div>
+
+
 
   <div class="barra_mediana"></div>
 
