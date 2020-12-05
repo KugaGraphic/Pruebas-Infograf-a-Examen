@@ -98,23 +98,52 @@ div.col-12 img{
 	position: center;
 	width:90vw; 
 	height:60vh;
-	
-
+}
+.cuadrado{
+	height:10vh;
+	width: auto;
+	background:#428bca;
+	border:3px solid #555;
 }
 
 .esconder {
    	display: none;
  }
+#bloque {
+ 	background-image: url("img/montaña.png");
+ }
+section{
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 20%;
+	margin: 0 auto;
+	overflow: hidden;
+	padding:0;
+	position: relative;
+	width: 100%;
+
+}
 
 .parallax{
-	background-image: url("img/fondo.png");
-	background-repeat: no-repeat;
+	background-image: url("img/montaña.png");
+	height: 30vh;
+	width: 100%;
+
+	
+	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: 100%;
+
+	/*
+
  	width:100%;
  	height: auto;
  	background-size: 100%;
-	padding-top: 0vh; /* 1:1 Aspect Ratio */
-	  /* Create the parallax scrolling effect */
-	background-attachment: fixed;
+	padding-top: 0vh;  1:1 Aspect Ratio */
+	  
+	
 
 }
 .parallax1{
@@ -209,6 +238,8 @@ div.col-12 img{
      background-attachment: fixed;
      background-repeat: repeat;
 }
+
+
 
 @media only screen and (max-device-width: 500px) {
 	.parallax1, .parallax2, .parallax3 {
