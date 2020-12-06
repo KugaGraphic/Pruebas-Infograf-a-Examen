@@ -60,7 +60,7 @@ p{
 	h3{ font-size: 1.5em; } /* titulos*/
 	h5{ font-size: 1.1em; }/*minitexto verde*/
 	p{ font-size: 1em; }
-	
+
 }
 
 p.info{
@@ -70,7 +70,7 @@ p.info{
 	margin-right: 0px;
     margin-left: 0px;
 
-	
+
 }
 div.col-12 img{
 	width:100%;
@@ -96,7 +96,7 @@ div.col-12 img{
 }
 #mapa2{
 	position: center;
-	width:90vw; 
+	width:90vw;
 	height:60vh;
 }
 .cuadrado{
@@ -130,7 +130,7 @@ section{
 	height: 30vh;
 	width: 100%;
 
-	
+
 	background-attachment: fixed;
   	background-position: center;
   	background-repeat: no-repeat;
@@ -142,8 +142,8 @@ section{
  	height: auto;
  	background-size: 100%;
 	padding-top: 0vh;  1:1 Aspect Ratio */
-	  
-	
+
+
 
 }
 .parallax1{
@@ -240,6 +240,48 @@ section{
 }
 
 
+/* Aqui comienzan estilos divs de pirulo y puma arbol */
+
+              div.casos_derechos {
+                width: 100%;
+                height: auto;
+                margin: 0 0 1rem;
+                display: flex;
+                align-items: center;
+              }
+
+              div.casos_derechos img.img_derechos {
+                width: 30%;
+                height:auto;
+                margin: 20px auto;
+              }
+
+              .img_derechos_cel {
+                width: 100%;
+                height:auto;
+                margin-top: 10%;
+                margin-bottom: 5%;
+
+              }
+
+              .hijo_derechos {
+                font-size: 0.8rem;
+                margin-right: 5%;
+                margin-left: 5%;
+                width: 70%;
+                height:auto;
+                padding: .2rem;
+              }
+
+              .hijo_derechos_cel {
+                font-size: 0.9rem;
+                margin-right: 5%;
+                margin-left: 5%;
+                padding: .2rem;
+              }
+
+/* Aqui terminan estilos divs de pirulo y puma arbol */
+
 
 @media only screen and (max-device-width: 500px) {
 	.parallax1, .parallax2, .parallax3 {
@@ -247,7 +289,7 @@ section{
     background-size: 100%;
 
   }
-	
+
  	.barraparallax {
     display: none;
   }
